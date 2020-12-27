@@ -1,0 +1,23 @@
+{
+  "name": "starlink-satellite-tracker",
+  "version": "1.0.0",
+  "description": "An app that displayes a map and shows the location of Starlink satellites",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaTroxPL/StarlinkSatelliteTracker.git"
+  },
+  "keywords": [],
+  "author": "Jakub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZaTroxPL/StarlinkSatelliteTracker/issues"
+  },
+  "homepage": "https://github.com/ZaTroxPL/StarlinkSatelliteTracker#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
