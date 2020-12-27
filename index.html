@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starlink satellite tracker</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6qhQ1NCeCL6aHBGaptGNj4F5UALxbphg&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>    
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div id="map"></div>
+    <button class="btn" onclick="getStarlinkData()">Get Starlink Satellites</button>
+</body>
+</html>

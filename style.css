@@ -1,0 +1,9 @@
+#map {
+    height: 700px;
+    border: 1px solid black;
+}
+
+.btn {
+    font-size: large;
+    margin: 5px;
+}
